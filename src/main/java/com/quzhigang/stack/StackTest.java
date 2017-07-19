@@ -54,11 +54,9 @@ public class StackTest {
 		temp = input.next();
 		
 		while (!temp.equals("0")) {
-			
 			data = stackType.popStack(stack);
 			System.out.printf("出栈的数据是(%s,%d)\n",data.getName(),data.getAge());
 			temp = input.next();
-			
 		}
 		
 		System.out.println("测试结束！");
